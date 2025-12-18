@@ -1,7 +1,7 @@
 name: hello-world
 permissions:
   id-token: write # This is required for requesting the JWT l
-  contents: read  # This is required for checkout
+  contents: read  # This is required for checkoutj
 on:
   push:
     branches: [ "main" ]
